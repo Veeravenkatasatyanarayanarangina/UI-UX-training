@@ -27,7 +27,7 @@ class Students extends React.Component {
         }
         students.push(student);
         this.setState({ students: students });
-       this.showtable()
+       
        
     }
    

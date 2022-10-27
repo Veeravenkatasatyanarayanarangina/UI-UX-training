@@ -6,7 +6,7 @@ class Employee extends React.Component
     {
         super()
         this.state={
-            empname:"sasahydfuageyuldf",
+            empname:"Satya",
             age:20,
             salary:20000,
             designation:"bsc",
@@ -46,9 +46,9 @@ class Employee extends React.Component
             {this.state.isDisplay&&<h3>age         :{this.state.age}</h3>}
              {this.state.isDisplay&&<h3>salary      : {this.state.salary}</h3>}
              {this.state.isDisplay&& <h3>designation : {this.state.designation}</h3>}
-           <button onMouseOver={this.changeInfo} >Show name</button>
-           <button onMouseOver={this.showInfo.bind(this)} >Show Info</button>
-           <button onMouseOver={this.hideInfo.bind(this)} >Hide Info</button>
+           <button onClick={this.changeInfo} >Show name</button>
+           <button onClick={this.showInfo.bind(this)} >Show Info</button>
+           <button onClick={this.hideInfo.bind(this)} >Hide Info</button>
           <input type="submit" value="showage" onClick={()=>this.showAge()} />
         </div>
     }

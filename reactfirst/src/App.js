@@ -1,12 +1,14 @@
 
 import './App.css';
-import StudentDetails from './student-components/StudentDetails';
+import Counter from "./classbasedEmployee/Counter.js"
+// import StudentDetails from './student-components/StudentDetails';
+// import Employee from './employe-components/Employee';
 
 
 function App() {
   return (
     <div className="App">
-     < StudentDetails />
+      <Counter/>
     
     </div>
   );
